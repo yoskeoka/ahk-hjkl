@@ -1,2 +1,2 @@
 # ahk-hjkl
-left alt &amp; HJKL
+CapsLock &amp; HJKL
