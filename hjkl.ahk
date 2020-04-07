@@ -1,35 +1,36 @@
-; CapsLock Alt + HJKLでカーソルキー
-; sc03A (CapsLock)
-CapsLock & h::
+; F14 + HJKLでカーソルキー
+; Scan Code: 0x0065 (F14) をChangeKeyで左Ctrlに割当
+; F13の方が一般的のようだが、IMEがF13に反応するのでF14を使用
+F14 & h::
     Send, {Blind}{Left}
     Return
-CapsLock & j::
+F14 & j::
     Send, {Blind}{Down}
     Return
-CapsLock & k::
+F14 & k::
     Send, {Blind}{Up}
     Return
-CapsLock & l::
+F14 & l::
     Send, {Blind}{Right}
     Return
 
 ; home, end
-CapsLock & a::
+F14 & a::
     Send, {Blind}{Home}
     Return
-CapsLock & e::
+F14 & e::
     Send, {Blind}{End}
     Return
 
 ; PageUp, PageDown
-CapsLock & n::
+F14 & n::
     Send, {Blind}{PgDn}
     Return
-CapsLock & p::
+F14 & p::
     Send, {Blind}{PgUp}
     Return
 
 ; Delete left, Delete right
-CapsLock & u::
+F14 & u::
     Send, {Blind}+{Home}{Del}
     Return
