@@ -1,0 +1,3 @@
+[submodule "alt-ime-ahk"]
+	path = alt-ime-ahk
+	url = git@github.com:karakaram/alt-ime-ahk.git

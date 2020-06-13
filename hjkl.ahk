@@ -34,3 +34,7 @@ F14 & p::
 F14 & u::
     Send, {Blind}+{Home}{Del}
     Return
+
+; IME.ahkのインクルードが成功するように基準ディレクトリ変更してインクルードする
+#Include alt-ime-ahk
+#Include alt-ime-ahk.ahk
