@@ -1,3 +1,8 @@
+
+; IME.ahkのインクルードが成功するように基準ディレクトリ変更してインクルードする
+#Include %A_ScriptDir%\alt-ime-ahk
+#Include alt-ime-ahk.ahk
+
 ; F14 + HJKLでカーソルキー
 ; Scan Code: 0x0065 (F14) をChangeKeyで左Ctrlに割当
 ; F13の方が一般的のようだが、IMEがF13に反応するのでF14を使用
@@ -34,7 +39,3 @@ F14 & p::
 F14 & u::
     Send, {Blind}+{Home}{Del}
     Return
-
-; IME.ahkのインクルードが成功するように基準ディレクトリ変更してインクルードする
-#Include alt-ime-ahk
-#Include alt-ime-ahk.ahk
