@@ -70,3 +70,8 @@ F14 & [::send ^{[}
 ~F14 & u::
     Send, {Blind}+{Home}{Del}
     Return
+
+; Ctrl & Click
+~F14 & LButton::
+    Send, {Blind}^{LButton}
+    Return
