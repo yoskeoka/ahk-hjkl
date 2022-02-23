@@ -1,4 +1,4 @@
-; CapsLock + HJKLでカーソルキー
+; CapsLock + NPBFでカーソルキー
 ; sc03A (CapsLock)
 
 ; CapsLockが入ってしまったときの解除キー

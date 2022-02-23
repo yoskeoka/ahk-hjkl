@@ -27,6 +27,7 @@ F14 & q::send ^{q}
 F14 & r::send ^{r}
 F14 & s::send ^{s}
 F14 & t::send ^{t}
+F14 & u::send ^{u}
 F14 & v::send ^{v}
 F14 & w::send ^{w}
 F14 & x::send ^{x}
@@ -66,10 +67,10 @@ F14 & [::send ^{[}
     Send, {Blind}{PgUp}
     Return
 
-; Delete left, Delete right
-~F14 & u::
-    Send, {Blind}+{Home}{Del}
-    Return
+; ; Delete left, Delete right
+; ~F14 & u::
+;     Send, {Blind}+{Home}{Del}
+;     Return
 
 ; Ctrl & Click
 ~F14 & LButton::
